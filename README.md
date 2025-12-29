@@ -50,7 +50,12 @@ This project explores live coding for audiovisual performances using **Hydra** (
 ## Running Locally
 
 ### Hydra (Locally)
-Hydra is primarily browser-based, but you can run it locally:
+Hydra is primarily browser-based, below is "reaching hands" my first experimental design illustrating basic hydray methods. The colours, warping and distance between the hands is controller through external audio via the system mic
+
+![alt text](image.png)
+
+
+You can run it locally:
 
 1. **Clone the Hydra repo:**
 	```
@@ -70,6 +75,17 @@ Hydra is primarily browser-based, but you can run it locally:
 You can now copy code from this repo into the local Hydra editor.
 
 ### Strudel (Locally)
+
+Strudel is a browser-based live coding environment for music, inspired by TidalCycles. It allows you to create complex musical patterns and sequences using concise code, supporting samples, synths, and MIDI. Strudel is ideal for algorithmic composition and live performance.
+
+![alt text](image-1.png)
+
+#### Example Sessions
+
+- **Session 1 (`ses_1.js`)**: Demonstrates a basic drum pattern (kick every step) and a randomized bassline in C minor, using sawtooth synthesis and effects like distortion. The code uses Strudel's pattern language to generate evolving, rhythmic music.
+
+- **Session 2 (`ses_2.js`)**: Loads breakbeat and pad samples, sets a custom gain curve, and sequences a breakbeat loop with effects like scrubbing and stereo panning (orbit). This session shows how to manipulate samples and apply effects for dynamic, electronic music textures.
+
 Strudel can also be run locally:
 
 1. **Clone the Strudel repo:**
